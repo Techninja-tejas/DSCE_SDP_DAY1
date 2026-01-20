@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq
 
 st.set_page_config("TEJ AI Content generator", layout="wide")
-st.title("📢 PragyanAI – Content Generator")
+st.title("TEJ AI Content Generator")
 
 client = Groq(api_key=st.secrets["TEJ"])
 
