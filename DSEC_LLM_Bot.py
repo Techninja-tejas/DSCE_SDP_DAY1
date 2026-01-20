@@ -3,6 +3,7 @@ from groq import Groq
 
 st.set_page_config("TEJ AI Content generator", layout="wide")
 st.title("TEJ AI Content Generator")
+st.image("CR7.png")
 
 client = Groq(api_key=st.secrets["TEJ"])
 
